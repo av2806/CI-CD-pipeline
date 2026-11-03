@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 app.get('/',(req,res)=>{
-	res.send("Hi from prog6");
+	res.send("Hi from container to automate CI/CD");
 });
 app.listen(3000,()=>{
 	console.log("Listening at localhost:3000");
